@@ -18,6 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Programming\C++\open gl learning\Include\stb_image.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="noise\FractalNoise.cpp" />
+    <ClCompile Include="noise\Perlin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Programming\C++\open gl learning\Include\stb_image.h" />
+    <ClInclude Include="cameraZ.h" />
+    <ClInclude Include="noise\FractalNoise.h" />
+    <ClInclude Include="noise\Perlin.h" />
+    <ClInclude Include="shader\shader_m.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shader\shader.fs.txt" />
+    <Text Include="shader\shader.vs.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{FD7FBEED-7972-45BB-BEF5-E59431785A8D}</ProjectGuid>
@@ -116,25 +133,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Programming\C++\open gl learning\Include\myHeaders\cameraZ.h" />
-    <ClInclude Include="..\..\..\..\Programming\C++\open gl learning\Include\myHeaders\noise\FractalNoise.h" />
-    <ClInclude Include="..\..\..\..\Programming\C++\open gl learning\Include\myHeaders\noise\Perlin.h" />
-    <ClInclude Include="..\..\..\..\Programming\C++\open gl learning\Include\myHeaders\shader_m.h" />
-    <ClInclude Include="..\..\..\..\Programming\C++\open gl learning\Include\stb_image.h" />
-    <ClInclude Include="glad.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Programming\C++\open gl learning\Include\glad\glad.c" />
-    <ClCompile Include="..\..\..\..\Programming\C++\open gl learning\Include\myHeaders\noise\FractalNoise.cpp" />
-    <ClCompile Include="..\..\..\..\Programming\C++\open gl learning\Include\myHeaders\noise\Perlin.cpp" />
-    <ClCompile Include="..\..\..\..\Programming\C++\open gl learning\Include\stb_image.cpp" />
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="shader.fs.txt" />
-    <Text Include="shader.vs.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
