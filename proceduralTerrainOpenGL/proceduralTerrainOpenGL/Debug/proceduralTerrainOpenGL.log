@@ -1,6 +1,4 @@
 ﻿  main.cpp
-c:\users\ellio\onedrive\documents\programming\c++\open gl learning\include\myheaders\shader_m.h(53): warning C4101: 'infoLog': unreferenced local variable
-c:\users\ellio\onedrive\documents\programming\c++\open gl learning\include\myheaders\shader_m.h(52): warning C4101: 'success': unreferenced local variable
 c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(65): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data

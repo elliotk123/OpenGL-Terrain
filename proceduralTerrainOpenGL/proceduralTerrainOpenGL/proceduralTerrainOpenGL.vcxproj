@@ -19,17 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Programming\C++\open gl learning\Include\glad\glad.c" />
     <ClCompile Include="..\..\..\..\Programming\C++\open gl learning\Include\stb_image.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="noise\FractalNoise.cpp" />
     <ClCompile Include="noise\Perlin.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Programming\C++\open gl learning\Include\stb_image.h" />
-    <ClInclude Include="cameraZ.h" />
-    <ClInclude Include="noise\FractalNoise.h" />
-    <ClInclude Include="noise\Perlin.h" />
-    <ClInclude Include="shader\shader_m.h" />
+    <ClCompile Include="shader_m.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="shader\shader.fs.txt" />

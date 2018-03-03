@@ -24,26 +24,15 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\Programming\C++\open gl learning\Include\glad\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\..\Programming\C++\open gl learning\Include\stb_image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="noise\FractalNoise.h">
+    <ClCompile Include="shader_m.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="noise\Perlin.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="shader\shader_m.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="cameraZ.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Programming\C++\open gl learning\Include\stb_image.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="shader\shader.fs.txt">

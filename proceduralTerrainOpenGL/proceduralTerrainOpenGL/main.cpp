@@ -39,7 +39,7 @@ float lastX = screenWidth / 2.0f;
 float lastY = screenHeight / 2.0f;
 bool firstMouse = true;
 // function to resize viewport when user resizes window
-void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
+void framebuffer_size_callback(GLFWwindow * window, int width, int height) {
 	glViewport(0, 0, width, height);
 }
 
@@ -147,7 +147,7 @@ int main() {
 	//set global gl settings
 	glEnable(GL_DEPTH_TEST);
 	//----------------------------------------------------------------
-	Shader myShader("shader.vs.txt", "shader.fs.txt");
+	Shader myShader("shader/shader.vs.txt", "shader/shader.fs.txt");
 	//------------------------------------------------------
 	//SET UP VERTEX DATA AND BUFFERS
 	//---------------------------------------------------------
