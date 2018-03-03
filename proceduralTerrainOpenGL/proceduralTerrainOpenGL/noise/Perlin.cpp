@@ -5,7 +5,7 @@
  * Author: Chris Little
  */
 
-#include "noise/Perlin.h""
+#include "Perlin.h""
 
 
 #include <cstdlib>

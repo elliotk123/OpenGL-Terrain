@@ -2,7 +2,7 @@
 #include "cameraZ.h"
 #include "noise/FractalNoise.h"
 
-#include "GLFW/glfw3.h"
+#include <GLFW/glfw3.h>
 #include <stb_image.h>
 
 #include <glm/glm.hpp>

@@ -1,4 +1,4 @@
-#include "noise/FractalNoise.h"
+#include "FractalNoise.h"
 #include<iostream>
 FractalNoise::FractalNoise(int seed) {
 	std::cout << "Making Fractal\n";
