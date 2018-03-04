@@ -1,22 +1,2 @@
-﻿  main.cpp
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(65): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(71): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(72): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(73): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(80): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(84): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(93): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(102): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(104): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(104): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(154): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(155): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(155): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(156): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(156): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(161): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\onedrive\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(247): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  proceduralTerrainOpenGL.vcxproj -> C:\Users\ellio\OneDrive\Documents\GitHub\OpenGL-Terrain\proceduralTerrainOpenGL\Debug\proceduralTerrainOpenGL.exe
+﻿  proceduralTerrainOpenGL.vcxproj -> C:\Users\ellio\OneDrive\Documents\GitHub\OpenGL-Terrain\proceduralTerrainOpenGL\Debug\proceduralTerrainOpenGL.exe
   proceduralTerrainOpenGL.vcxproj -> C:\Users\ellio\OneDrive\Documents\GitHub\OpenGL-Terrain\proceduralTerrainOpenGL\Debug\proceduralTerrainOpenGL.pdb (Partial PDB)
