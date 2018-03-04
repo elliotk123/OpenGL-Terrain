@@ -1,6 +1,6 @@
 #ifndef TERRAIN_H
 #define TERRAIN_H
-#include <myHeaders/terrain/section.h>
+#include "section.h"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -95,54 +95,9 @@ void terrain::update(const glm::vec3 position) {
 		}
 	}
 }
-void render() {
-	unsigned int VBO, VAO, EBO;
-	glGenBuffers(1, &VBO);
-	glGenBuffers(1, &EBO);
-	glGenVertexArrays(1, &VAO);
 
+void terrain::display(screenWidth, screenHeight, minViewDistance, maxvViewDistance )
 
-	glBindVertexArray(VAO);
-
-
-	glBindBuffer(GL_ARRAY_BUFFER, VBO);
-	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices)*mapSize * 3, vertices, GL_STATIC_DRAW);
-
-	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices)*numIndices, indices, GL_STATIC_DRAW);
-
-	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
-	glEnableVertexAttribArray(0);
-
-
-
-
-	myShader.use();
-	//set transformations
-	//view
-	glm::mat4 view;
-	view = camera.GetViewMatrix();
-	int viewLoc = glGetUniformLocation(myShader.ID, "view");
-	glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
-	//projection
-	glm::mat4 projection;
-	projection = glm::perspective(glm::radians(camera.Zoom), float(screenWidth) / float(screenHeight), minViewDistance / distancePerWorldSpace, maxViewDistance / distancePerWorldSpace);
-	int projectionLoc = glGetUniformLocation(myShader.ID, "projection");
-	glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
-	//render terrain
-	glBindVertexArray(VAO);
-	glDrawElements(GL_TRIANGLES, numIndices, GL_UNSIGNED_INT, 0);
-	for (unsigned int i = 0; i < 29; i++)
-	{
-		glm::mat4 model;
-		model = glm::translate(model, { _loadedSections[i]->getOrigin()[0],_loadedSections[i]->getOrigin()[1],0 });
-		int modelLoc = glGetUniformLocation(myShader.ID, "model");
-		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		glDrawElements(GL_TRIANGLES, 1350, GL_UNSIGNED_INT, 0);
-
-	}
-
-}
 
 
 
