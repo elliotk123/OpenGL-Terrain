@@ -96,7 +96,12 @@ void terrain::update(const glm::vec3 position) {
 	}
 }
 
-void terrain::display(screenWidth, screenHeight, minViewDistance, maxvViewDistance )
+void terrain::display(screenWidth, screenHeight, minViewDistance, maxvViewDistance) {
+
+	for (int i = 0; i < 29, i++) {
+
+	}
+}
 
 
 
