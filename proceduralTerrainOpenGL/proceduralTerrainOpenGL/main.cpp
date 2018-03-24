@@ -2,13 +2,14 @@
 #include "cameraZ.h"
 #include "noise/FractalNoise.h"
 
-#include <GLFW/glfw3.h>
-#include <stb_image.h>
+#include "GLFW/glfw3.h"
+#include "stb_image/stb_image.h"
 
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtc/type_ptr.hpp"
 
+#include "glad/glad.h"
 
 //settings
 //laptop
