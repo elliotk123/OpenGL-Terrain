@@ -1,22 +1,130 @@
-﻿  main.cpp
-c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+﻿  terrain.cpp
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(21): error C2065: 'vertices': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(21): error C2541: 'delete': cannot delete objects that are not pointers
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(25): error C2440: 'return': cannot convert from 'initializer list' to 'int'
+  c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(25): note: The initializer contains too many elements
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(31): error C2065: 'lod': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(31): error C2661: 'pow': no overloaded function takes 1 arguments
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(39): error C2065: 'originX': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(39): error C2065: 'originY': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(39): error C2660: 'FractalNoise::noise': function does not take 2 arguments
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(50): error C2065: '_vertives': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(50): error C3861: 'len': identifier not found
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(50): error C2198: 'PFNGLBUFFERDATAPROC': too few arguments for call
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(53): error C2065: 'Indices': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(53): error C3861: 'len': identifier not found
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(53): error C2198: 'PFNGLBUFFERDATAPROC': too few arguments for call
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(59): error C2039: 'render': is not a member of 'section'
+  c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(9): note: see declaration of 'section'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(60): error C2065: 'model': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(60): error C2065: '_sectionX': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(60): error C2065: '_sectionY': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(62): error C2065: 'model': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(62): error C2198: 'PFNGLUNIFORMMATRIX4FVPROC': too few arguments for call
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(64): error C2065: 'VAO': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(65): error C2065: 'numIndices': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(69): error C2059: syntax error: '}'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(69): error C2143: syntax error: missing ';' before '}'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xmemory(14): error C2143: syntax error: missing ';' before '{'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xmemory(14): error C2447: '{': missing function header (old-style formal list?)
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(3): error C2512: 'FractalNoise': no appropriate default constructor available
+  c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\noise\fractalnoise.h(16): note: see declaration of 'FractalNoise'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(6): error C3863: array type 'int [3]' is not assignable
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(9): error C2065: 'indices1': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(9): error C3861: 'createIndices': identifier not found
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(10): error C2065: 'EBO': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(10): error C2198: 'PFNGLBINDBUFFERPROC': too few arguments for call
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(11): error C3861: 'len': identifier not found
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(11): error C2198: 'PFNGLBUFFERDATAPROC': too few arguments for call
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(12): error C2065: 'indices2': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(12): error C3861: 'createIndices': identifier not found
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(13): error C2065: 'EBO': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(13): error C2198: 'PFNGLBINDBUFFERPROC': too few arguments for call
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(14): error C3861: 'len': identifier not found
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(14): error C2198: 'PFNGLBUFFERDATAPROC': too few arguments for call
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(15): error C2065: 'indices3': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(15): error C3861: 'createIndices': identifier not found
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(16): error C2065: 'EBO': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(16): error C2198: 'PFNGLBINDBUFFERPROC': too few arguments for call
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(17): error C3861: 'len': identifier not found
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(17): error C2198: 'PFNGLBUFFERDATAPROC': too few arguments for call
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(20): error C2143: syntax error: missing ';' before '}'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(37): error C2065: 'baseVertsPerSection': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(38): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(38): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(61): error C3861: 'len': identifier not found
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(62): error C2109: subscript requires array or pointer type
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(62): error C2059: syntax error: ')'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(63): error C2109: subscript requires array or pointer type
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(63): error C2059: syntax error: ')'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(64): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(69): error C2065: 'relsectionX': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(69): error C2065: 'relsectionY': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(69): error C2664: 'section::section(const section &)': cannot convert argument 1 from 'int' to 'const section &'
+  c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(69): note: Reason: cannot convert from 'int' to 'const section'
+  c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(69): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(71): error C2065: 'EBO': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(72): error C2143: syntax error: missing ';' before '}'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(76): error C2065: 'EBO': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(77): error C2143: syntax error: missing ';' before '}'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(83): error C2059: syntax error: ')'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(89): error C2065: 'myShader': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(89): error C2228: left of '.ID' must have class/struct/union
+  c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(89): note: type is 'unknown-type'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(98): error C2143: syntax error: missing ';' before ')'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(99): error C2065: '_loadedSection': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(99): error C2227: left of '->render' must point to class/struct/union/generic type
+  c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(99): note: type is 'unknown-type'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.cpp(101): error C2143: syntax error: missing ';' before '}'
+  main.cpp
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(21): error C2065: 'vertices': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(21): error C2541: 'delete': cannot delete objects that are not pointers
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(25): error C2440: 'return': cannot convert from 'initializer list' to 'int'
+  c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(25): note: The initializer contains too many elements
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(31): error C2065: 'lod': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(31): error C2661: 'pow': no overloaded function takes 1 arguments
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(39): error C2065: 'originX': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(39): error C2065: 'originY': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(39): error C2660: 'FractalNoise::noise': function does not take 2 arguments
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(50): error C2065: '_vertives': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(50): error C3861: 'len': identifier not found
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(50): error C2198: 'PFNGLBUFFERDATAPROC': too few arguments for call
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(53): error C2065: 'Indices': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(53): error C3861: 'len': identifier not found
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(53): error C2198: 'PFNGLBUFFERDATAPROC': too few arguments for call
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(59): error C2039: 'render': is not a member of 'section'
+  c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(9): note: see declaration of 'section'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(60): error C2065: 'model': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(60): error C2065: '_sectionX': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(60): error C2065: '_sectionY': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(62): error C2065: 'model': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(62): error C2198: 'PFNGLUNIFORMMATRIX4FVPROC': too few arguments for call
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(64): error C2065: 'VAO': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(65): error C2065: 'numIndices': undeclared identifier
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(69): error C2059: syntax error: '}'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\section.h(69): error C2143: syntax error: missing ';' before '}'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.h(10): error C2143: syntax error: missing ';' before '{'
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\terrain\terrain.h(10): error C2447: '{': missing function header (old-style formal list?)
 c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(71): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(68): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(72): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(73): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(73): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(74): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(81): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(85): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(94): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(105): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(107): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(107): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
-c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(157): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(75): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(82): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(86): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(95): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(106): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(108): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(108): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
 c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(158): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(158): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
 c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(159): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
 c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(159): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
-c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(164): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(250): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  proceduralTerrainOpenGL.vcxproj -> C:\Users\ellio\Documents\GitHub\OpenGL-Terrain\proceduralTerrainOpenGL\Debug\proceduralTerrainOpenGL.exe
-  proceduralTerrainOpenGL.vcxproj -> C:\Users\ellio\Documents\GitHub\OpenGL-Terrain\proceduralTerrainOpenGL\Debug\proceduralTerrainOpenGL.pdb (Partial PDB)
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(160): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(160): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(165): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ellio\documents\github\opengl-terrain\proceduralterrainopengl\proceduralterrainopengl\main.cpp(251): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...

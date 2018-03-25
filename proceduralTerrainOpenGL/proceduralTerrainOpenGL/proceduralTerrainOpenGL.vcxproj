@@ -25,6 +25,8 @@
     <ClCompile Include="noise\Perlin.cpp" />
     <ClCompile Include="shader\shader_m.cpp" />
     <ClCompile Include="stb_image\stb_image.cpp" />
+    <ClCompile Include="terrain\section.cpp" />
+    <ClCompile Include="terrain\terrain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="shader\shader.fs.txt" />
