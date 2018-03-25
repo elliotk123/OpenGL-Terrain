@@ -1,11 +1,11 @@
 #ifndef SECTION_H
-#def SECTION_H
-#include <noise/FractalNoise.h>
-#include <shader/shader_m.h>
+#define SECTION_H
+#include "../noise/FractalNoise.h"
+#include "../shader/shader_m.h"
 
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
+#include "../glm/glm.hpp"
+#include "../glm/gtc/matrix_transform.hpp"
+#include "../glm/gtc/type_ptr.hpp"
 class section {
 private:
 	int _lod; 
@@ -18,15 +18,16 @@ private:
 public:
 	section(int lod, int sectionX, int sectionY) {_lod = lod;_sectionX = sectionX;_sectionY = sectionY; glGenVertexArrays(1, &VAO); glGenBuffers(1, &VBO);
 	}
-	~section() { delete[] vertices; glDeleteVertexArrays(1, &VAO);glDeleteBuffers(1, &VBO); std::cout << "Deleted section\n"; }
-	void setVertices(const int baseVertsPerSection,const float distancePerWorldSpace,const FractalNoise f);
-	void setLod(const lod) { _lod = lod; }
+	~section() { delete[] _vertices; glDeleteVertexArrays(1, &VAO);glDeleteBuffers(1, &VBO); std::cout << "Deleted section\n"; }
+	void setVertices(const int baseVertsPerSection,const float distancePerWorldSpace,const FractalNoise &f);
+	void setLod(int lod) { _lod = lod; }
 	int getLod()const { return _lod; }
 	int getOrigin()const { return { _sectionX, _sectionY }; }
 	float* getVertices()const { return _vertices; }
+	void bindBuffers(unsigned int &EBO, float indices);
 };
 
-float* section::setVertices(int baseVertsPerSection, float distancePerWorldSpace, FractalNoise &f) {
+void section::setVertices(const int baseVertsPerSection, const float distancePerWorldSpace, const FractalNoise &f) {
 	float lodFactor = pow(2, 1 - lod);
 	const int numVerts = int(pow(baseVertsPerSection*lodFactor, 2));
 	float* vertices = new float[numVerts * 3];
@@ -42,7 +43,7 @@ float* section::setVertices(int baseVertsPerSection, float distancePerWorldSpace
 		//vertices[i + 2] = temp*tanh(temp);
 	}
 } 
-void secton::bindBuffers(unsigned int &EBO,float indices) {
+void section::bindBuffers(unsigned int &EBO,float indices) {
 	glBindVertexArray(VAO);
 
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);

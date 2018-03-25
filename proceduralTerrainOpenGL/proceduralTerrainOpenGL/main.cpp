@@ -1,6 +1,7 @@
 #include "shader/shader_m.h"
 #include "cameraZ.h"
 #include "noise/FractalNoise.h"
+#include "terrain/terrain.h"
 
 #include "GLFW/glfw3.h"
 #include "stb_image/stb_image.h"
