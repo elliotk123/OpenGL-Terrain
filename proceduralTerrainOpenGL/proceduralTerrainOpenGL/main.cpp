@@ -22,14 +22,14 @@ int screenWidth = 1366;
 float deltaTime = 0.0f;
 float lastFrame = 0.0f;
 //map size 
-const int baseVertsPerSection = 128;
+const int baseVertsPerSection = 256;
 float distancePerWorldSpace = 100.0f;
 int lod=1;
 //noise
 int seed = 12345;
 int octaves = 4;
-float amplitude = 200.0f;
-float wavelength = 2000.0f;
+float amplitude = 1000.0f;
+float wavelength = 3000.0f;
 // camera
 float cameraSpeed=100.0f;
 float initialHeight = 50.0f;
@@ -95,6 +95,8 @@ float* createVertices(float originX, float originY, int baseVertsPerSection, flo
 		//vertices[i + 2] = 0.5*temp*(0.3*exp(-8 * temp) + exp(8 * temp)) / (cosh(8 * temp));//Jungle
 		//vertices[i + 2] = 0.5*(0.3*temp*exp(-2 * temp) + (0.3*temp+1)*exp(2 * temp)) / (cosh(2 * temp));//Mooreland
 		//vertices[i + 2] = temp*tanh(temp);
+		//vertices[i + 2] = std::fmax(temp, 0.3*temp)*exp(-(pow(vertices[i],2)+pow(vertices[i+1],2))/pow(baseVertsPerSection/4,2)); //island
+		//vertices[i+2]=sin(std::fmax(temp, 0.3*temp));
 		
 	}
 	return vertices;
